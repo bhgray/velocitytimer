@@ -52,7 +52,8 @@ export default class App extends Component<{}> {
           {bookList.map(function(item) {
             return (
               <Text key={item.objectID} style={styles.titleText}>{item.title}{'\n'}</Text>
-            };
+              
+            );
           })}
         </Text>
       </View>
